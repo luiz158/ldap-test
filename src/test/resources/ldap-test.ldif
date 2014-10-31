@@ -1,0 +1,24 @@
+dn: dc=br
+changeType: add
+objectClass: domain
+objectClass: top
+dc: br
+
+dn: dc=com,dc=br
+changeType: add
+objectClass: domain
+objectClass: top
+dc: com
+
+dn: dc=sicoper,dc=com,dc=br
+changeType: add
+objectClass: domain
+objectClass: top
+dc: sicoper
+
+dn: cn=Fulano de tal,dc=sicoper,dc=com,dc=br
+changetype: add
+objectclass: top
+objectclass: person
+userpassword: teste
+sn: Fulano
